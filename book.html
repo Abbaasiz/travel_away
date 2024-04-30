@@ -42,25 +42,25 @@
       </div>
     </nav>
 
-<section class="book">
+<section class="book" id="book">
     <div class="container py-3">
         <div class="title py-3 text-center">
-            <h3>Book</h3>
+            <h1>Book</h1>
         </div>
 
         <div class="row">
-            <div class="col-md-6 py-3 py-md-0">
+            <div class="col-md-6 py-3 py-md-0 mb-5">
                 <img src="assets/media/book-img.png" alt="">
             </div>
 
             <div class="col-md-6">
                 <form method="POST" action="https://formdump.codeinstitute.net/">
-                    <input type="text" class="form-control" placeholder="Where To" required>
-                    <input type="text" class="form-control" placeholder="How Many" required>
-                    <input type="date" class="form-control">
-                    <input type="date" class="form-control">
-                    <textarea name="text" class="form-control" cols="30" rows="10" placeholder="Enter Your Name & Details"></textarea><br>
-                    <input class="submit" type="submit" value="Book-Now" required>
+                    <input type="text" id="destination" class="form-control" placeholder="Where To" required><br>
+                    <input type="number" class="form-control" placeholder="How Many" required><br>
+                    <input type="date" class="form-control"><br>
+                    <input type="date" class="form-control"><br>
+                    <textarea name="text" class="form-control" cols="30" rows="5" placeholder="Enter Your Name & Details"></textarea>
+                    <input class="submit" type="submit" value="Book Now" required>
                 </form>
             </div>
 

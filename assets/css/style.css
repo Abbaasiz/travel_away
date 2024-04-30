@@ -45,6 +45,42 @@
     max-width: 200px;
 }
 
+/* Booking page */
+
+.book {
+    background: #8e7cc3;
+}
+
+.book .submit {
+    background: #ffa500;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    width: 160px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.book .submit:hover{
+    width: 170px;
+}
+
+.book form input {
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+
+.book h1 {
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+}
 /* Combobox */
 .destCombo {
     /* dhoif */
