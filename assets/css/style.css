@@ -44,3 +44,9 @@
     max-height: 200px;
     max-width: 200px;
 }
+
+/* Combobox */
+.destCombo {
+    /* dhoif */
+    min-height: 500px;
+}

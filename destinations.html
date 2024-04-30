@@ -51,22 +51,24 @@
   </nav>
 
   <!-- Main content -->
-  <main>
-    <div class="container">
-      <form>
-        <label for="destDataList" class="form-label">Choose your destination!</label>
-        <input class="form-control" list="destOptions" id="destDataList" placeholder="Select from the options below.">
-        <datalist id="destOptions">
-          <option value="San Francisco">
-          <option value="New York">
-          <option value="Seattle">
-          <option value="Los Angeles">
-          <option value="Chicago">
-        </datalist>
-      </form>
+  <section>
+    <div class="container destCombo">
+      <div class="row">
+        <div class="col-12">
+          <label for="exampleDataList" class="form-label">Datalist example</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+          <datalist id="datalistOptions">
+            <option value="San Francisco">
+            <option value="New York">
+            <option value="Seattle">
+            <option value="Los Angeles">
+            <option value="Chicago">
+          </datalist>
+        </div>
+      </div>
     </div>
 
-  </main>
+  </section>
 
   <!-- Footer -->
   <footer class="container-fluid">
