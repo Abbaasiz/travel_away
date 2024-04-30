@@ -18,12 +18,15 @@
     </div>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar-dark sticky-top navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-xxl">
+        <div class="align-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Gallery</a>
@@ -32,12 +35,12 @@
                 <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Locations/Packages</a>
+                <a class="nav-link" href="#">Destinations/Packages</a>
               </li>
             </ul>
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     
     <!-- Footer -->
     <footer class="container-fluid">
@@ -73,11 +76,29 @@
             </div>
             <div class="col-sm-3">
                 <p>Payment types accepted</p>
+                <ul class="list-inline payment-icons">
+                  <li class="list-inline-item">
+                    <i class="fa-brands fa-paypal"></i>
+                    <span class="sr-only">Paypal</span>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fa-brands fa-cc-amex"></i>
+                    <span class="sr-only">American Express</span>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fa-brands fa-google-pay"></i>
+                    <span class="sr-only">Google Pay</span>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fa-brands fa-apple-pay"></i>
+                    <span class="sr-only">Apple Pay</span>
+                  </li>
+                </ul>
             </div>
         </div>
     </footer>
 
-<!-- Bootstrap fpr Javascript -->
+<!-- Bootstrap for Javascript -->
 
 
 </body>

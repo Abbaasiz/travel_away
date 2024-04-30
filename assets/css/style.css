@@ -5,18 +5,22 @@
     color: #ffffff;
 }
 
-.navbar-expand-lg {
+.navbar-dark {
     background-color: #8e7cc3;
     color: #ffffff;
 }
 
-.footer-details{
-    color: #ffffff;
-    background-color: #eeb868;
+.navbar-expand-lg {
+    justify-content: space-between;
 }
 
-.social-links {
+.navbar-dark:active {
+    color: #ffa500;
+}
+
+.footer-details {
     color: #ffffff;
+    background-color: #eeb868;
 }
 
 /* Header */
@@ -29,9 +33,10 @@
     padding-left: 50px;
 }
 
-.header{
+.header {
     padding-top: 75px;
 }
+
 .logo {
     background: url(../media/Logo.svg);
     background-repeat: no-repeat;
