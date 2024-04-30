@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* colours */
+.header {
+    color: #ffffff;
+}
+
+.navbar-dark {
+    background-color: #8e7cc3;
+    color: #ffffff;
+}
+
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+
+.navbar-dark:active {
+    color: #ffa500;
+}
+
+.footer-details {
+    color: #ffffff;
+    background-color: #eeb868;
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 250px;
+    background-color: #eeb868;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.header {
+    padding-top: 75px;
+}
+
+.logo {
+    background: url(../media/Logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 200px;
+    max-width: 200px;
+}
