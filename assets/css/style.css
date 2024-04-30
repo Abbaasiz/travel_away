@@ -1,17 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-* {
-    font-family: "Lato";
+/* Fonts */
+.contact-info {
+    font-size: x-small;
 }
 
-/* colours */
+body {
+    font-family: "lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "barriecito", system-ui;
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    background-color: #eeb868;
+    padding-left: 0;
+}
+
+.header {
+    padding-top: 75px;
+}
+
+.logo {
+    background: url(../media/Logo.svg);
+    background-repeat: no-repeat;
+    background-position: center cover;
+}
+
 .header {
     color: #ffffff;
 }
 
+/* Navbar */
 .navbar-dark {
     background-color: #8e7cc3;
     color: #ffffff;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-expand-lg {
@@ -22,31 +55,56 @@
     color: #ffa500;
 }
 
-.footer-details {
+/* Main Body */
+.main-body {
+    min-height: 100vh;
+    background-color: #d4cbed;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 50vh;
+}
+
+.about {
+    background-position-x: 60%;
+}
+
+/* Footer */
+#footer-details {
     color: #ffffff;
     background-color: #eeb868;
+    justify-content: space-between;
 }
 
-/* Header */
-.header-container {
+.footer {
+    max-height: 100px;
+}
+
+#footer-details a {
+    color: #ffffff;
+}
+
+#footer-details a:hover {
+    color: #d4cbed;
+}
+
+.social-links {
     display: flex;
     justify-content: space-between;
-    min-height: 250px;
-    background-color: #eeb868;
-    padding-top: 25px;
-    padding-left: 50px;
 }
 
-.header {
-    padding-top: 75px;
+.payment-icons {
+    display: flex;
+    justify-content: center;
 }
 
-.logo {
-    background: url(../media/Logo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    max-height: 200px;
-    max-width: 200px;
+footer > h6 {
+    display: inline-flex;
+    justify-content: center;
 }
 
 /* Booking page */
