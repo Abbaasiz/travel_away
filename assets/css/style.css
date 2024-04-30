@@ -49,6 +49,7 @@
     max-width: 200px;
 }
 
+<<<<<<< HEAD
 /* Booking page */
 
 .book {
@@ -85,3 +86,10 @@
     text-shadow: 0px 1px 1px black;
     font-weight: bold;
 }
+=======
+/* Combobox */
+.destCombo {
+    /* dhoif */
+    min-height: 250px;
+}
+>>>>>>> main
