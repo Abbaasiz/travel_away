@@ -149,48 +149,7 @@ footer > h6 {
     min-height: 250px;
 }
 
-/* Gallery page */
 
-.gallery {
-    margin-top: 50px;
-    margin-bottom: ;
-}
-
-.gallery .change-content:after {
-    content: '';
-    color: orange;
-    text-shadow: 0 1px 1px black;
-    animation: changetxt 10s infinite linear;
-}
-
-.gallery .card {
-    border-radius: 10px;
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
-    cursor: pointer;
-}
-
-.gallery .card img {
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-.gallery .card img:hover {
-    transform: scale(1.05);
-}
-
-@keyframes changetxt {
-    0% {content: " Carribean";}
-    10% {content: " France";}
-    20% {content: " United States";}
-    30% {content: " Japan";}
-    40% {content: " Spain";}
-    50% {content: " Zanzibar";}
-    60% {content: " Italy";}
-    70% {content: " Hawaii";}
-    80% {content: " United Kingdom";}
-    90% {content: " Japan";}
-    100% {content: " Zanzibar";}
-}
 
 /* ------------------- Media Queries ---------------------- */
 .card {
@@ -198,7 +157,6 @@ footer > h6 {
     height: fit-content;
     width: 270px;
     margin: 10px;
-
 }
 
 .card-container{
@@ -210,14 +168,12 @@ footer > h6 {
 .card-image{
     height: 170px;
     margin-bottom: 15px;
-    margin-top: 10px;
-    
+    margin-top: 10px;  
 }
 
 .card p{
     padding: 10px;
     font-size: 15px;
-
 }
 
 .card a{
@@ -236,7 +192,52 @@ footer > h6 {
     text-transform: scale(0,5);
     transition: all 1s ease;
     text-decoration: none;
+}
 
+/* Gallery page */
+
+.gallery {
+    margin-top: 50px;
+}
+
+.gallery .change-content:after {
+    content: '';
+    color: orange;
+    text-shadow: 0 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+
+.gallery .card {
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+    width: 500px;
+}
+
+.gallery .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gallery .card img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes changetxt {
+    0% {content: " Carribean";}
+    10% {content: " France";}
+    20% {content: " United States";}
+    30% {content: " Japan";}
+    40% {content: " Spain";}
+    50% {content: " Zanzibar";}
+    60% {content: " Italy";}
+    70% {content: " Hawaii";}
+    80% {content: " United Kingdom";}
+    90% {content: " Japan";}
+    100% {content: " Zanzibar";}
 }
 
 /* ------------------- Media Queries ---------------------- */
