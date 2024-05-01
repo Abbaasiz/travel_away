@@ -149,19 +149,32 @@ footer > h6 {
     min-height: 250px;
 }
 
+/* Gallery page */
+
 .gallery {
-    background: ;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .change-content:after {
     content: '';
-    color:#ffa500;
+    color:#eeb868;
     text-shadow: 0 1px 1px black;
     animation: changetxt 10s infinite linear;
 }
 
-.card {
-    border: none;
+.gallery .card {
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+
+.card img {
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 @keyframes changetxt {
