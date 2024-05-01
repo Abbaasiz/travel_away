@@ -46,7 +46,14 @@
 }
 
 /* Combobox */
-.destCombo {
-    /* dhoif */
-    min-height: 250px;
+#destDataList {
+    margin-bottom: 8px;
+}
+
+.destBtn {
+    margin: 10px 50px 20px;
+}
+
+.form-control {
+    
 }
