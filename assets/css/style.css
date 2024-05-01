@@ -149,4 +149,33 @@ footer > h6 {
     min-height: 250px;
 }
 
+.gallery {
+    background: ;
+}
+
+.change-content:after {
+    content: '';
+    color:#ffa500;
+    text-shadow: 0 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+
+.card {
+    border: none;
+}
+
+@keyframes changetxt {
+    0% {content: " Carribean";}
+    10% {content: " France";}
+    20% {content: " United States";}
+    30% {content: " Japan";}
+    40% {content: " Spain";}
+    50% {content: " Zanzibar";}
+    60% {content: " Italy";}
+    70% {content: " Hawaii";}
+    80% {content: " United Kingdom";}
+    90% {content: " Japan";}
+    100% {content: " Zanzibar";}
+}
+
 /* ------------------- Media Queries ---------------------- */
