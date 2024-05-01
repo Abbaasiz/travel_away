@@ -153,10 +153,10 @@ footer > h6 {
 
 .gallery {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: ;
 }
 
-.change-content:after {
+.gallery .change-content:after {
     content: '';
     color: orange;
     text-shadow: 0 1px 1px black;
@@ -166,15 +166,16 @@ footer > h6 {
 .gallery .card {
     border-radius: 10px;
     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
 }
 
-.card img {
+.gallery .card img {
     border-radius: 10px;
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
 
-.card:hover {
-    transform: scale(1.1);
+.gallery .card img:hover {
+    transform: scale(1.05);
 }
 
 @keyframes changetxt {
