@@ -158,7 +158,7 @@ footer > h6 {
 
 .change-content:after {
     content: '';
-    color:#eeb868;
+    color: orange;
     text-shadow: 0 1px 1px black;
     animation: changetxt 10s infinite linear;
 }
