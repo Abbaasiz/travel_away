@@ -41,10 +41,9 @@ When creating the homepage's wireframe we tested different images
 
 The booking page enables users to book a trip with Travel Away.  They will be able to specify their location of interest, the number of travellers they would like to bring along, the start/end dates and other details such as their name.
 
-
 ## Gallery
 
-The gallery showcases attractive images of travel destinations offered by Travel Away.  This will be useful for the user so they can dtermine whether the detination is the type of place they would like to visit.
+The gallery showcases attractive images of travel destinations offered by Travel Away.  This will be useful for the user so they can determine whether the destination is the type of place they would like to visit.
 
 # Testing
 
