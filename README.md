@@ -85,9 +85,25 @@ A bug occurred when the incorrect gitpod account was used after running out of h
 
 - Validator testing: W3C markup and css validators were used to test the validity of code.
 
-- Site performance and compatibility: page performance was tested with the lighthouse tool. The website was tested for compatibility on different screen sizes in Google Chrome Development tools, and by using the website on devices with different screen sizes like mobile phones.
+- Site performance and compatibility: page performance was tested with the lighthouse tool. The webpages loading times accessibility and search engine optimisation were analysed and given a rating. The website was tested for responsiveness and compatibility on different screen sizes in Google Chrome Development tools.
 
+## Booking Page
 
+![](/assets/media/documentation/Book-performance-1.PNG)
+
+![](/assets/media/documentation/book-performance-2.PNG)
+
+## Gallery Page
+
+![](/assets/media/documentation/Gallery-perf-1PNG.PNG)
+
+![](/assets/media/documentation/Gallery-perf-2.PNG)
+
+## Services Page 
+
+![](/assets/media/documentation/services-perf-1.PNG)
+
+![](/assets/media/documentation/services-perf-2.PNG)
 
 # Deployment
 
@@ -95,6 +111,8 @@ A bug occurred when the incorrect gitpod account was used after running out of h
 
 - After deployment, the layout of the `Services.html` page was not displaying as expected. The issue was resolved by modifying the code in the `style.css` file, resulting in the page rendering correctly.
 
-
-
 # Credits
+
+- Destinations images from pexels.com
+- Services images from unsplash
+- Booking form image from SA Coding
