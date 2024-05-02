@@ -227,16 +227,16 @@ footer > h6 {
 }
 
 @keyframes changetxt {
-    0% {content: " Carribean";}
-    10% {content: " France";}
-    20% {content: " United States";}
+    0% {content: " Italy";}
+    10% {content: " Shetlands";}
+    20% {content: " Ishigaki";}
     30% {content: " Japan";}
     40% {content: " Spain";}
     50% {content: " Zanzibar";}
-    60% {content: " Italy";}
+    60% {content: " the world's Archepelagos";}
     70% {content: " Hawaii";}
-    80% {content: " United Kingdom";}
-    90% {content: " Japan";}
+    80% {content: " Japan";}
+    90% {content: " Carribean";}
     100% {content: " Zanzibar";}
 }
 
