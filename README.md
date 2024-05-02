@@ -28,12 +28,16 @@ These wireframes are intended to guide the development and design phases of the 
 ## Repository Structure
 This repository is organized into folders corresponding to each primary section of the website. Each folder contains the wireframe files along with a brief description document for each represented page. Below is the structure of these directories:
 - **`HomePage`**: Contains wireframes for the website’s homepage, which includes navigation menus, introductory content, and quick access links to major sections.
+
+![](/assets/media/documentation/New%20Wireframe%201.png)
+
 [Homepage wireframe](image_url)
 - **`Destinations`**: Wireframes showcasing the layout for destination listings, including search and filter capabilities, featured destinations, and individual destination details.
 [Destinations wireframe](https://share.balsamiq.com/c/7nnhgW4bAzRr9y7XUnVPXm.png)
 - **`Services`**: Detailed wireframes for additional services offered, such as hotels and accomdation, tour guide, safety guide, ctaering & booking fights.
 [Services Wireframe](https://share.balsamiq.com/c/nZReLKYveCczjUDUKNQMDE.png)
 - **`Booking`**: Includes wireframes for the booking process flow, from selecting a service or destination to finalizing a reservation.
+![](/assets/media/documentation/New%20Wireframe%202.png) <br>
 [Booking wireframe](https://share.balsamiq.com/c/griF6C7Db73DkEHhTt8C6t.png)
 - **`Gallery`**: Visual gallery layouts displaying images and videos from various destinations, categorized for easy browsing.
 [Gallery wireframe](https://share.balsamiq.com/c/xkJJpKHs7sWA1a7W1fzzFB.png)
@@ -55,7 +59,20 @@ We encourage contributions to improve these wireframes. To contribute:
 6. Create a new Pull Request.
 
 # Features
-
+- Home/page:
+For the Homepage we tested two different layouts on the wireframes. The first a=lay out the header was too packed. So we took out some of the text. After we took out some of the text the header appeared too empty. We realised that the Icon was too big in comparison to the space we have on the header. The icon was made smaller and two lines of text were added in the header. The Footer was at first sticky then it was changed where only the navbar appeared to be sticky. The page appeared visually pleasing for user experience.
+- Destinations:
+The destinations page was at first supposed to be a drop down that takes the user over to the link where they can view a different page. However, it was not possible due to lack of time. Therefore, we used a simpler code where when using the drop down link the user is able to select different destinations then the text would appear.
+- Services:
+On the services.html page we tested different wireframe layouts. We started with 2 rows of 3 images and a description of each service underneath. Which appeared too busy and not user friendly. Then decided that putting the images in circles would appear visually pleasing. However after testing the wireframe we realised that it would not be the best choice as we have 6 images on our page and the images can not be displayed larger due to lack of space for text. And when the images were made smaller it wasn’t visually pleasing and the layout was not user friendly or professional. Lastly the wireframe we created had 6 cards and the images were displayed in the card and under the image in the card the text description was added. Now to create better user experience we added a Modal with a READ MORE button where the user can click that to see the rest of the information instead of putting it all in the card as it won’t be user friendly.
+- Booking:
+The bookings page wireframe was created to provide an input interface for users to book a trip. The UX design includes an image and the form on the right for a pleasant user experience.  The booking now button has a hover effect to give the user a pleasant experience.  When a user submits the form, they are redirected to a confirmation page which shows a confirmation message and a button for them to return to the home page of Travel Away.
+- Gallery:
+The bookings page wireframe was created provide an input interface for users to book a trip. The UX design includes an image and the form on the right for a pleasant user experience.  The booking now button as a hover effect to give the user a pleasant experience.  When a user submits the form, they are redirected to a confirmation page which shows a confirmation message and a button for them to return to the home page of Travel Away.
+- Profile Management: Users can create accounts to manage bookings, save preferences, view past trips, and receive personalised recommendations.
+- Notification Preferences: Options for users to customise communication preferences, including emails or text messages.
+- User Feedback: Integration of user-generated reviews and ratings for destinations, accommodations, tours, and activities, to help travellers make informed decisions.
+- Mobile Compatibility: Responsive design that users can access and functionality across devices, including desktops, laptops, smartphones, and tablets.
 - Secure Payment in the footer <br>
 Payment Options: Secure payment processing for bookings, with support for multiple payment methods including credit/debit cards, PayPal, and digital wallets.
 - Contact: Added different methods for users to get in contact with customer service.
