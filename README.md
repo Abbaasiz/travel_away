@@ -28,12 +28,16 @@ These wireframes are intended to guide the development and design phases of the 
 ## Repository Structure
 This repository is organized into folders corresponding to each primary section of the website. Each folder contains the wireframe files along with a brief description document for each represented page. Below is the structure of these directories:
 - **`HomePage`**: Contains wireframes for the website’s homepage, which includes navigation menus, introductory content, and quick access links to major sections.
+
+![](/assets/media/documentation/New%20Wireframe%201.png)
+
 [Homepage wireframe](image_url)
 - **`Destinations`**: Wireframes showcasing the layout for destination listings, including search and filter capabilities, featured destinations, and individual destination details.
 [Destinations wireframe](https://share.balsamiq.com/c/7nnhgW4bAzRr9y7XUnVPXm.png)
 - **`Services`**: Detailed wireframes for additional services offered, such as hotels and accomdation, tour guide, safety guide, ctaering & booking fights.
 [Services Wireframe](https://share.balsamiq.com/c/nZReLKYveCczjUDUKNQMDE.png)
 - **`Booking`**: Includes wireframes for the booking process flow, from selecting a service or destination to finalizing a reservation.
+![](/assets/media/documentation/New%20Wireframe%202.png) <br>
 [Booking wireframe](https://share.balsamiq.com/c/griF6C7Db73DkEHhTt8C6t.png)
 - **`Gallery`**: Visual gallery layouts displaying images and videos from various destinations, categorized for easy browsing.
 [Gallery wireframe](https://share.balsamiq.com/c/xkJJpKHs7sWA1a7W1fzzFB.png)
