@@ -77,14 +77,24 @@ Mobile Compatibility: Responsive design that users can access and functionality 
 
 - Gallery: the gallery showcases attractive images of travel destinations offered by Travel Away.  This will be useful for the user so they can determine whether the destination is the type of place they would like to visit.
 
+# Bug
+
+A bug occurred when the incorrect gitpod account was used after running out of hours. To address the issue, the workspace was saved to the desktop, and the code was copied to a new workspace under the CI student account.
+
 # Testing
 
 - Validator testing: W3C markup and css validators were used to test the validity of code.
 
 - Site performance and compatibility: page performance was tested with the lighthouse tool. The website was tested for compatibility on different screen sizes in Google Chrome Development tools, and by using the website on devices with different screen sizes like mobile phones.
 
+
+
 # Deployment
 
-- The website was deployed to gituhub pages.
+- After deploying the `Services.html` page, there was an issue with some card images not displaying correctly. The process to resolve the issue involved deleting the problematic images from the media folder, renaming them in the gallery, and re-uploading them to the media directory. Once the image links were updated in the workspace, the card images displayed as intended.
+
+- After deployment, the layout of the `Services.html` page was not displaying as expected. The issue was resolved by modifying the code in the `style.css` file, resulting in the page rendering correctly.
+
+
 
 # Credits
