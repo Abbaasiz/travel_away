@@ -134,7 +134,9 @@ footer>h6 {
 
 .book {
     background: #8e7cc3;
+    height: 100vh;
 }
+
 
 .book .submit {
     background: #ffa500;
